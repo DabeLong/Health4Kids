@@ -35,7 +35,7 @@
     <TextView
         android:id="@+id/top_food_name"
         android:layout_marginTop="25dp"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorBlack"
         android:gravity="center"
@@ -53,27 +53,18 @@
     </template.healthgame.FoodCardView>
 
     <ImageView
-        android:id="@+id/top_food_nutrition"
-        android:layout_toLeftOf="@+id/top_food_card"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="100dp"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/nutrition_icon"/>
-
-    <ImageView
         android:id="@+id/top_food_description"
-        android:layout_toRightOf="@+id/top_food_card"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="100dp"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="125dp"
+        android:layout_toRightOf="@id/top_food_card"
         android:background="@drawable/info_icon"/>
 
 
     <TextView
         android:id="@+id/bottom_food_name"
-        android:layout_width="150dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="280dp"
@@ -114,9 +105,14 @@
         android:layout_height="60dp"
         android:background="@drawable/info_icon"/>
 
-
-
-
+    <ImageView
+        android:id="@+id/top_food_nutrition"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="125dp"
+        android:layout_toLeftOf="@id/top_food_card"
+        android:background="@drawable/nutrition_icon" />
 
 
 </RelativeLayout>

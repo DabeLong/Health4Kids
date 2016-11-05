@@ -133,15 +133,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
         final MainActivity activity = this;
 
         topFoodCard = (FoodCardView) findViewById(R.id.top_food_card);
@@ -298,7 +289,13 @@ public class MainActivity extends AppCompatActivity {
 
         // set dialog message
         alertDialogBuilder
-                .setMessage("Choose the healthier food between the two. Earn points and unlock new rewards.");
+                .setMessage("Choose the healthier food between the two. Earn points and unlock new rewards.")
+                .setPositiveButton("Okay", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
 
         // create alert dialog
         AlertDialog alertDialog = alertDialogBuilder.create();
