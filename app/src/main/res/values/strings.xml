@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Health Game</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Database is currently hardcoded-->
+    <string name="banana_meal">Breakfast, Snack</string>
+    <string name="banana_type">Fruit</string>
+    <string name="banana_description">
+        I love bananas! Long thick-skinned edible fruit that is yellow when ripe.
+        Bananas are delicious eaten with one\'s fingers after peeling off the skin.
+        Depending on the type of banana unripe bananas are also cooked, fried or deep-fried a lot. Bananas are the
+        basic food in many tropical countries.</string>
+    <string name="fries_meal">Lunch, Dinner</string>
+    <string name="fries_type">Appetizer, Side</string>
+    <string name="fries_description">
+        French fries primarily contain carbohydrates from the potato
+        (mostly in the form of starch) and fat absorbed during the deep-frying process, as well as
+        sodium depending upon the seasoning. They are made by frying, salting, and removing one of
+        the healthiest parts of the potato: the skin, where many of the nutrients and fiber are found.
+        Avoid eating too much! </string>
+    <string name="burger_meal">Lunch, Dinner</string>
+    <string name="burger_type">Entré</string>
+    <string name="burger_description">
+        Hamburger is a kind of sandwich consisting of grilled cutlets, served inside
+        that cut round loaf. It is usually supplemented with various seasonings, for example, lettuce,
+        ketchup and mayonnaise, slices of pickled cucumber, tomatoes or zucchini, raw or fried onions.
+        The burger is the most common fast food in the United States. Burgers are great foods to eat occasionally,
+        but they are generally considered unhealthy.
+        </string>
+    <string name="pizza_meal">Lunch, Dinner</string>
+    <string name="pizza_type">Entré</string>
+    <string name="pizza_description">
+        Pizza is a flatbread generally topped with tomato sauce and cheese and baked in an oven.
+        It is commonly topped with a selection of meats, vegetables and condiments. Who doesn't love pizza?
+        </string>
+    <string name="salad_meal">Lunch, Dinner</string>
+    <string name="salad_type">Entré</string>
+    <string name="salad_description">
+        A salad is a healthy dish consisting of small pieces of food, which may be mixed with a sauce
+        or salad dressing. They are typically served cold. Salads can incorporate a variety of foods
+        including vegetables and fruits. They may not taste very good alone, but adding stuff like
+        cheese, cooked meat, eggs, grains, nuts, and dressing greatly improves the flavoring of salad.
+        </string>
+
+
+    <string name="yogurt_meal">Snack</string>
+    <string name="yogurt_type">Side</string>
+    <string name="yogurt_description">
+        Yogurt is made by adding a number of types of harmless bacteria to milk, causing it to ferment.
+        This thickens it and gives it its characteristically tangy flavour. Cow\'s milk is the most common
+        type used, but goat\'s, ewe\'s, sheep or buffalo\'s milk are also suitable. Most yogurt sold is \'live\',
+        which means that it still contains live bacteria. Such organisms are thought to stimuate the gut\'s
+        friendly bacteria and suppress harmful bacteria.
+        </string>
+
+    <string name="chickenNuggets_meal">Lunch, Dinner</string>
+    <string name="chickenNuggets_type">Appitizer</string>
+    <string name="chickenNuggets_description">
+        Chicken nuggets are in fact typically made of the same meat that you see in the supermarket, that is, broiler meat.
+        Chicken nuggets are excellent sources of protein, especially for growing kids, which are part of a healthy, balanced diet
+        that includes plenty of fruits and vegetables. I love eating them with ketchup or sweet-n-sour sauce. Be careful of eating
+        too much of them, though!
+        </string>
+
+    <string name="burrito_meal">Lunch, Dinner</string>
+    <string name="burrito_type">Entre</string>
+    <string name="burrito_description">
+        Burritos are so yummy, holy crap. I love the chicken and beans and rice and avacados and cheese and everything inside them tastes so good wiht the
+        tortilla. Its not that unhealthy except the tortilla itself. Moreover its important to understand how much SALT IS IN THE BURRITO
+        SO DONT EAT TOO MUCH CHILDREN unless you wanna get high BP and die or something. But burritos are very yummy I want one right now.
+        </string>
+
+    <string name="lucky_charms_meal">Breakfast</string>
+    <string name="lucky_charms_type">Entre</string>
+    <string name="lucky_charms_description">
+    I love eating breakfast for cereal. Cereal is made from processed grains and can be very healthy depending on the brand.
+        It is eaten hot or cold, usually mixed with milk, yogurt, or fruit. Some companies promote their products for the health benefits
+        from eating oat-based and high-fiber cereals. My personal favorites include Cheerios and Lucky Charms
+    </string>
+
+
+    <string name="oreo_meal">Breakfast, Lunch, Dinner</string>
+    <string name="oreo_type">Entre</string>
+    <string name="oreo_description">
+    I love oreos. They taste so good with milk or even with water. Eat a few, not too many as they have no nutritional benefits, but make
+        sure to keep eating in moderation because they are very tasty.
+    </string>
+
+
+
+
+
+
+</resources>
