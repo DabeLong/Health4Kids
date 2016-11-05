@@ -32,15 +32,15 @@ public class MainActivity extends AppCompatActivity {
 
     TextView topFoodName;
     FoodCardView topFoodCard;
-    TextView topFoodMealClassifier;
-    TextView topFoodType;
+//    TextView topFoodMealClassifier;
+//    TextView topFoodType;
     ImageView topFoodNutrition;
     ImageView topFoodDescription;
 
     TextView bottomFoodName;
     FoodCardView bottomFoodCard;
-    TextView bottomFoodMealClassifier;
-    TextView bottomFoodType;
+//    TextView bottomFoodMealClassifier;
+//    TextView bottomFoodType;
     ImageView bottomFoodNutrition;
     ImageView bottomFoodDescription;
 
@@ -68,14 +68,14 @@ public class MainActivity extends AppCompatActivity {
 
         Food topFood = topFoodDeck.get(index);
         topFoodCard.setFood(topFood);
-        topFoodMealClassifier.setText(topFood.mealClassifier);
-        topFoodType.setText(topFood.foodType);
+//        topFoodMealClassifier.setText(topFood.mealClassifier);
+//        topFoodType.setText(topFood.foodType);
         topFoodName.setText(topFood.name);
 
         Food bottomFood = bottomFoodDeck.get(index);
         bottomFoodCard.setFood(bottomFood);
-        bottomFoodMealClassifier.setText(bottomFood.mealClassifier);
-        bottomFoodType.setText(bottomFood.foodType);
+//        bottomFoodMealClassifier.setText(bottomFood.mealClassifier);
+//        bottomFoodType.setText(bottomFood.foodType);
         bottomFoodName.setText(bottomFood.name);
     }
 
@@ -111,14 +111,14 @@ public class MainActivity extends AppCompatActivity {
 
         Food topFood = topFoodDeck.get(index);
         topFoodCard.setFood(topFood);
-        topFoodMealClassifier.setText(topFood.mealClassifier);
-        topFoodType.setText(topFood.foodType);
+//        topFoodMealClassifier.setText(topFood.mealClassifier);
+//        topFoodType.setText(topFood.foodType);
         topFoodName.setText(topFood.name);
 
         Food bottomFood = bottomFoodDeck.get(index);
         bottomFoodCard.setFood(bottomFood);
-        bottomFoodMealClassifier.setText(bottomFood.mealClassifier);
-        bottomFoodType.setText(bottomFood.foodType);
+//        bottomFoodMealClassifier.setText(bottomFood.mealClassifier);
+//        bottomFoodType.setText(bottomFood.foodType);
         bottomFoodName.setText(bottomFood.name);
     }
 
@@ -145,8 +145,8 @@ public class MainActivity extends AppCompatActivity {
         final MainActivity activity = this;
 
         topFoodCard = (FoodCardView) findViewById(R.id.top_food_card);
-        topFoodMealClassifier = (TextView) findViewById(R.id.top_food_meal_classifier);
-        topFoodType = (TextView) findViewById(R.id.top_food_type);
+//        topFoodMealClassifier = (TextView) findViewById(R.id.top_food_meal_classifier);
+//        topFoodType = (TextView) findViewById(R.id.top_food_type);
         topFoodNutrition = (ImageView) findViewById(R.id.top_food_nutrition);
         topFoodDescription = (ImageView) findViewById(R.id.top_food_description);
         topFoodName = (TextView) findViewById(R.id.top_food_name);
@@ -215,8 +215,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         bottomFoodCard = (FoodCardView) findViewById(R.id.bottom_food_card);
-        bottomFoodMealClassifier = (TextView) findViewById(R.id.bottom_food_meal_classifier);
-        bottomFoodType = (TextView) findViewById(R.id.bottom_food_type);
+//        bottomFoodMealClassifier = (TextView) findViewById(R.id.bottom_food_meal_classifier);
+//        bottomFoodType = (TextView) findViewById(R.id.bottom_food_type);
         bottomFoodNutrition = (ImageView) findViewById(R.id.bottom_food_nutrition);
         bottomFoodDescription = (ImageView) findViewById(R.id.bottom_food_description);
         bottomFoodName = (TextView) findViewById(R.id.bottom_food_name);
